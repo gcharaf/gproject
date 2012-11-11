@@ -9,5 +9,7 @@ public class Tests {
 		// TODO Auto-generated method stub
 		System.out.println("Application for launching the tests");
 	}
+	
+	// Modifyed by mohamed
 
 }
