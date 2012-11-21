@@ -3,6 +3,8 @@
  */
 package UC;
 
+import UC.UI.MainScreen;
+
 /**
  * @author Charaf
  *
@@ -17,6 +19,9 @@ public class UC {
 
 		System.out.println("Hello");
 		System.out.println("This is the UC application");
+		
+		// Testing for the screen
+		MainScreen ms = new MainScreen(400, 400);
 		
 		// this is another comment 
 
