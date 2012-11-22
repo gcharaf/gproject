@@ -21,7 +21,7 @@ public class UC {
 		System.out.println("This is the UC application");
 		
 		// Testing for the screen
-		MainScreen ms = new MainScreen(400, 400);
+		MainScreen ms = new MainScreen("Unit Control", 600, 400);
 		
 		// this is another comment 
 
