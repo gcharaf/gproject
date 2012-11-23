@@ -11,6 +11,10 @@ import javax.swing.JMenuItem;
  * 
  */
 public class MenuDevices extends JMenu implements MenuTemplate {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JMenuItem detectItem;
 	private JMenuItem newItem1;
 	private JMenuItem newItem2;
@@ -20,7 +24,6 @@ public class MenuDevices extends JMenu implements MenuTemplate {
 	private static String NEW_ITEM2 = "Not implement yet...";
 
 	public MenuDevices(String label) {
-		super(label);
 		initialize();
 	}
 

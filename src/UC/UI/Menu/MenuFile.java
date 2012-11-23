@@ -11,6 +11,10 @@ import javax.swing.JMenuItem;
  * 
  */
 public class MenuFile extends JMenu implements MenuTemplate {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JMenuItem newItem;
 	private JMenuItem openItem;
 	private JMenuItem exitItem;

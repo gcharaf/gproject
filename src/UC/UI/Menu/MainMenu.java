@@ -7,6 +7,10 @@ import javax.swing.JMenuBar;
  * 
  */
 public class MainMenu extends JMenuBar {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private final String FILE_LABEL = "File";
 	private final String DEVICES_LABEL = "Devices";
 	

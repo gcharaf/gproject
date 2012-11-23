@@ -16,6 +16,10 @@ import UC.UI.Menu.MainMenu;
  * 
  */
 public class MainScreen extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Container container;
 
 	/**
