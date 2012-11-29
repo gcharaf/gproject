@@ -1,16 +1,19 @@
 package node;
 
-public class Node {
+import javax.vecmath.Point3f;
 
+public class Node extends Point3f{
+
+	
+	private static final long serialVersionUID = 1L;
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("This is a node");
-		
-		// My new Comment
 
+	public Node(float x, float y, float z){
+		
+		super(x,y,z);
 	}
+	
 
 }
