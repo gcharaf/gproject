@@ -2,11 +2,16 @@ package node;
 import java.io.*;
 import java.util.*;
 
-public class Node {
+import javax.vecmath.Point3f;
 
+public class Node extends Point3f{
+
+	
+	private static final long serialVersionUID = 1L;
 	/**
 	 * @param args
 	 */
+<<<<<<< HEAD
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("This is a node");
@@ -117,7 +122,13 @@ public class Node {
 		  }
 
 		} // end class Graphe
+=======
+>>>>>>> bb900c54ad012070faa547fa921ee2a18e208ec4
 
+	public Node(float x, float y, float z){
+		
+		super(x,y,z);
 	}
+	
 
 }

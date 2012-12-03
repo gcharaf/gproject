@@ -20,7 +20,7 @@ public class MenuFile extends JMenu implements MenuTemplate {
 	private JMenuItem exitItem;
 
 	private static String NEW_ITEM = "New";
-	private static String OPEN_ITEM = "Open";
+	private static String OPEN_ITEM = "Open File";
 	private static String EXIT_ITEM = "Exit";
 
 	public MenuFile(String label) {
@@ -52,6 +52,7 @@ public class MenuFile extends JMenu implements MenuTemplate {
 		exitItem.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.out.println("Exit is pressed");
+				System.exit(0);
 			}
 		});
 	}
