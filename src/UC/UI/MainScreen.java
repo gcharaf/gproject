@@ -26,8 +26,8 @@ public class MainScreen extends JFrame {
 	 * @param width
 	 * @param height
 	 */
-	public MainScreen(String label, int width, int height) {
-		super(label);
+	public MainScreen(String title, int width, int height) {
+		super(title);
 
 		initialize(width, height);
 	}
@@ -53,6 +53,7 @@ public class MainScreen extends JFrame {
 	 * @param frame
 	 */
 	private void setElements(JFrame frame) {
+
 		// Container
 		container = frame.getContentPane();
 
